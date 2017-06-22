@@ -29,9 +29,7 @@ def press(GenerateMadlib):
     app.setTextArea("MadLibEntry", string_two + app.getEntry("Song") + "." + " ")
     app.setTextArea("MadLibEntry", string_one + app.getEntry("Country") + " ")
 
-
 app.addButton("Generate MadLib", press)
-
 app.addTextArea("MadLibEntry")
 
 app.go()
